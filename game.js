@@ -1,0 +1,3 @@
+
+
+$(".mario").on("keydown", jump);
