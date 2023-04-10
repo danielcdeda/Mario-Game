@@ -4,11 +4,27 @@
     box-sizing: border-box;
 }
 
+.background-top {
+    height: 180px;
+    background-color: #0389d0;
+}
+
+.mario-jump {
+    position: absolute;
+    text-align: center;
+    width: 500px;
+    top: 90px;
+    left: 35%;
+}
+
+.background-bottom {
+    height: 180px;
+}
+
 .game-board {
     width: 100%;
     height: 600px;
     position: relative;
-    margin: 180px auto;
     overflow: hidden;
     background-image: linear-gradient(#0389d0, #a3d2ec) ;
 }
