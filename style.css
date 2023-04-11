@@ -9,7 +9,18 @@
     background-color: #0389d0;
 }
 
-.mario-jump {
+#play {
+    position: absolute;
+    left: 62%;
+    top: 100px;
+    width: 70px;
+}
+
+.icon {
+    margin-right: 20px
+}
+
+.peter-jump {
     position: absolute;
     text-align: center;
     width: 500px;
@@ -19,6 +30,7 @@
 
 .background-bottom {
     height: 180px;
+    background-color: #c89858;
 }
 
 .game-board {
@@ -36,7 +48,7 @@
     animation: pipe-animation 2.5s infinite linear; 
 }
 
-.mario {
+.peter {
     position: absolute;
     bottom: 0;
     left: 0;
