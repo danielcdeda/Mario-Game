@@ -54,14 +54,6 @@
     left: 0;
 }
 
-.bird {
-    position: absolute;
-    transform: scaleX(-1);
-    width: 100px;
-    bottom: 140px;
-    animation: bird-animation 3s infinite linear;
-}
-
 .grass {
     position: absolute;
     bottom:134px;
@@ -105,15 +97,6 @@
 @keyframes pipe-animation {
     from {
         right: 150px;
-    }
-    to {
-        right: 100%;
-    }
-}
-
-@keyframes bird-animation {
-    from {
-        right: -120px;
     }
     to {
         right: 100%;
